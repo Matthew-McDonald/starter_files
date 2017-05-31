@@ -1,0 +1,175 @@
+/*
+font info:
+    family - Helvetica, Arial, sans-serif
+    line-height - 1.6
+
+
+colors:
+    light gray - ##eee
+    gray - #dddddd
+    yellow - #ffd24a
+    orange - #ff8523
+    blue - #1fabe5
+    dark blue - #046c97
+*/
+
+* {
+  font-family: Helvetica, Arial;
+}
+
+h2, h3{
+  color: #1fabe5;
+}
+
+body {
+  background-color: #046c97;
+  display: flex;
+  justify-content: center;
+}
+
+.main-background {
+  border: 2px solid #ffd24a;
+  width: 800px;
+  background-color: white;
+}
+
+/*   HEADER NAV   */
+
+header {
+  background-color: #ff8523;
+  height: 180px;
+  padding-left: 30px;
+  padding-top: 30px;
+}
+
+nav {
+  margin-top: 40px;
+  font-family: "arial";
+  font-weight: 700;
+  font-size: 12pt;
+}
+
+nav a {
+  border: 1px solid white;
+  text-decoration: none;
+  color: white;
+  border-radius: 5px;
+  padding: 10px;
+  padding-left: 50px;
+  padding-right: 50px;
+}
+
+/*     MAIN PAGE CONTENT    */
+
+#page_content {
+  margin: 20px;
+}
+
+#page_content a {
+  color: #1fabe5;
+}
+.main-heading {
+  padding-top: 20px;
+}
+
+li {
+  font-weight: bold;
+  padding: 5px;
+}
+
+ul {
+  padding-bottom: 30px;
+}
+
+/*   TABLE   */
+
+
+table, td {
+  border: 1px solid #046c97;
+  border-collapse: collapse;
+  padding: 10px;
+}
+
+tbody td{
+  border-color: #1fabe5;
+}
+
+thead td {
+  background-color: #1fabe5;
+  color: white;
+}
+
+ table img {
+  width: 100px;
+  height: 100px;
+}
+
+.table-section {
+  border-bottom: 3px solid #dddddd;
+  padding-bottom: 30px;
+  border-top: 3px solid #dddddd;
+  padding-top: 5px;
+}
+
+
+/*  FORM    */
+
+
+.form-background {
+  background-color: #dddddd;
+  border-radius: 5px;
+  padding: 20px;
+
+}
+
+.form-section {
+  border-bottom: 3px solid #dddddd;
+  padding-bottom: 40px;
+}
+
+.name {
+  background-color: #ff8523;
+  border-radius: 5px;
+  padding: 20px;
+  color: white;
+}
+
+#first_name {
+  height: 30px;
+  width: 30%;
+  margin-right: 20px;
+}
+
+#last_name {
+  height: 30px;
+  width: 30%;
+}
+
+.city_container {
+  padding-top: 30px;
+  padding-bottom: 30px;
+  font-weight: bold;
+}
+
+#bio {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  width: 97%;
+  font-size: 12pt;
+  border-color: #1fabe5;
+}
+
+.puppy-love {
+  font-weight: bold;
+}
+
+#submit_button {
+  background-color: #1fabe5;
+  border-radius: 5px;
+  padding: 10px;
+  border: none;
+  color: white;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 14px;
+}
